@@ -157,3 +157,26 @@ input[type=text], select, textarea {
     -moz-box-shadow: 0 0 4px 1px rgba(0,0,0,.08);
 }
 
+
+
+@media screen and (min-width: 200px)  {
+  body{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  /* background-color: #e0d7d7; */
+  padding: -24px;
+  padding-left: -20px;
+
+}
+.form__container{
+  margin: -50px;
+  padding: -26px;
+  margin-left: -445px;
+  margin-right: 12px;
+}
+}
