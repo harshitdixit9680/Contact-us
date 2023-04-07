@@ -114,11 +114,11 @@ input[type=text], select, textarea {
 }
 .sab{
 
-    float: left;
-    margin-left: 82px;
-    width: 81%;
-    /* background-color: blue; */
-    margin-right: -547px;
+  float: left;
+  margin-left: 79px;
+  width: 88%;
+  /* background-color: blue; */
+  margin-right: -666px;
 }
 
 .hub{
@@ -159,7 +159,7 @@ input[type=text], select, textarea {
 
 
 
-@media screen and (min-width: 200px)  {
+@media screen and (min-width: 200px) and (max-width:1200px) {
   body{
     background-color: #f9f9f9;
     width: 100%;
@@ -178,5 +178,24 @@ input[type=text], select, textarea {
   padding: -26px;
   margin-left: -445px;
   margin-right: 12px;
+}
+
+.hub {
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 0px -8px #ffffff;
+}
+
+.sab {
+  float: left;
+  margin-left: 82px;
+  width: 81%;
+  /* background-color: blue; */
+  margin-right: -547px;
 }
 }
